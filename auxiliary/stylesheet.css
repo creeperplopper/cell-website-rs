@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-banner {
+	position: relative;
+	height:150px;
+	width:100%;
+	background-color: #006600;
+	/* background-image: url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/07/Resurrecting-Cells_2880x1620_Still.jpg"); */
+	/* background-size: cover; */
+	/* background-position: center; */
+	/* background-repeat: no-repeat; */
+}
+
+.logo-image {
+	position: relative;
+	width: 114px;
+	height: 150px;
+	background-color: #9C9;
+	float: left;
+}
+.banner-image {
+	/* position: relative; */
+	height: 150px;
+	width: 100%;
+	/* float: left; */
+	background-color: #000a66;
+	background-image: url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/07/Resurrecting-Cells_2880x1620_Still.jpg"); 
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+.left-nav {
+	position: relative;
+	/* float:left; */
+	width:200px;
+	height: 100%;
+	background-color: #006600;
+	text-align: center;
+}
+.content {
+	position: relative;
+	/* float:left; */
+	height: 100%;
+	width: 80%;
+	/* background-color:#665500; */
+}
+
+.bottom-banner {
+	height:120px;
+	width:1200px;
+	clear:both;
+	background-color:#99C;
+}
+.thin-bottom {
+	width:1200px;
+	height:30px;
+	background-color:#9966CC;
+}
+
+.left-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+  position: fixed;
+  overflow: auto;
+  font-family: Verdana;
+}
+
+.left-nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.left-nav li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+.left-nav li:last-child {
+  border-bottom: 1px solid;
+}
+
+.left-nav li a.active {
+  background-color: rgb(205, 21, 230);
+  color: white;
+}
+
+.left-nav li a:hover:not(.active) {
+  background-color: rgb(31, 171, 206);
+  color: white;
+}
+
+.left-image {
+	position:absolute;
+	float:left;
+	left: 50px;
+	top: 330px;
+	width:300px;
+	height: 340px;
+	background-color: #69F;
+	text-align: center;
+}
+.right-text {
+	position:relative;
+	left: 200px;
+	/* height: 440px; */
+	/* background-color: #69F; */
+	text-align: left;
+	padding: 15px 15px 15px 15px;
+	font-family: verdana;
+}
+
+figure {
+	float: left;
+}
